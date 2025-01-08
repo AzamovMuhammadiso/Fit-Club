@@ -64,7 +64,7 @@ const Testimonials = () => {
           />
           <img
             onClick={() => {
-              selected == tLength - 1
+              selected === tLength - 1
                 ? setselected(0)
                 : setselected((prev) => prev + 1);
             }}
